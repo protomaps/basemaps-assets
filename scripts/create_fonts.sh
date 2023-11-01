@@ -3,10 +3,10 @@ VARIANT=unhinted/ttf
 
 set -e
 
-font-maker --name "Sans Italic" ../fonts \
+font-maker --name "Noto Sans Italic" ../fonts \
 $ROOT/NotoSans/$VARIANT/NotoSans-italic.ttf
 
-font-maker --name "Sans Medium" ../fonts \
+font-maker --name "Noto Sans Medium" ../fonts \
 $ROOT/NotoSans/$VARIANT/NotoSans-Medium.ttf \
 $ROOT/NotoSansArmenian/$VARIANT/NotoSansArmenian-Medium.ttf \
 $ROOT/NotoSansHebrew/$VARIANT/NotoSansHebrew-Medium.ttf \
@@ -31,7 +31,7 @@ $ROOT/NotoSansKhmer/$VARIANT/NotoSansKhmer-Medium.ttf \
 $ROOT/NotoSansSymbols/$VARIANT/NotoSansSymbols-Medium.ttf \
 $ROOT/NotoSansCham/$VARIANT/NotoSansCham-Medium.ttf
 
-font-maker --name "Sans Regular" ../fonts \
+font-maker --name "Noto Sans Regular" ../fonts \
 $ROOT/NotoSans/$VARIANT/NotoSans-Regular.ttf \
 $ROOT/NotoSansArmenian/$VARIANT/NotoSansArmenian-Regular.ttf \
 $ROOT/NotoSansHebrew/$VARIANT/NotoSansHebrew-Regular.ttf \
