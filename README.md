@@ -1,4 +1,4 @@
-# basemaps-assets (WIP)
+# basemaps-assets
 Fonts and sprites for [basemaps](https://github.com/protomaps/basemaps).
 
 ## Directory Structure
@@ -22,3 +22,9 @@ glyphs:'https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pb
 ## Downloading Assets
 
 Use the Downloads button on this repository page.
+
+## License
+
+The license for each group of assets is contained within that directory:
+
+* `fonts/`: [SIL Open Font License](fonts/OFL.txt)
