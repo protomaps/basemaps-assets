@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SOURCE_FOLDER="fonts/Noto Sans Regular"
-DESTINATION_FOLDER="fonts/NotoSansDevanagari-Regular-v1"
+DESTINATION_FOLDER="fonts/Noto Sans Devanagari Regular v1"
 
 if [ ! -d "$DESTINATION_FOLDER" ]; then
   mkdir "$DESTINATION_FOLDER"
