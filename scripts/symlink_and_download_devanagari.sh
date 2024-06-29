@@ -1,0 +1,42 @@
+#!/bin/bash
+
+SOURCE_FOLDER="fonts/Noto Sans Regular"
+DESTINATION_FOLDER="fonts/Noto Sans Devanagari Regular v1"
+
+if [ ! -d "$DESTINATION_FOLDER" ]; then
+  mkdir "$DESTINATION_FOLDER"
+  echo "Created folder: $DESTINATION_FOLDER"
+else
+  echo "Folder $DESTINATION_FOLDER already exists"
+fi
+
+for file in "$SOURCE_FOLDER"/*; 
+do
+  if [ -d "$file" ]; then
+    continue
+  fi
+  
+  ln -s "../Noto Sans Regular/"$(basename "$file") "$DESTINATION_FOLDER"/$(basename "$file")
+done
+
+DOWNLOAD_URL="https://github.com/wipfli/pgf-glyph-ranges/raw/main/font/NotoSansDevanagari-Regular-v1"
+
+DOWNLOAD_FILE="62720-62975.pbf"
+rm "$DESTINATION_FOLDER/$DOWNLOAD_FILE"
+curl -o "$DESTINATION_FOLDER/$DOWNLOAD_FILE" "$DOWNLOAD_URL/$DOWNLOAD_FILE" -L
+echo "Downloaded file from $DOWNLOAD_URL/$DOWNLOAD_FILE to $DESTINATION_FOLDER/$DOWNLOAD_FILE"
+
+DOWNLOAD_FILE="62976-63231.pbf"
+rm "$DESTINATION_FOLDER/$DOWNLOAD_FILE"
+curl -o "$DESTINATION_FOLDER/$DOWNLOAD_FILE" "$DOWNLOAD_URL/$DOWNLOAD_FILE" -L
+echo "Downloaded file from $DOWNLOAD_URL/$DOWNLOAD_FILE to $DESTINATION_FOLDER/$DOWNLOAD_FILE"
+
+DOWNLOAD_FILE="63232-63487.pbf"
+rm "$DESTINATION_FOLDER/$DOWNLOAD_FILE"
+curl -o "$DESTINATION_FOLDER/$DOWNLOAD_FILE" "$DOWNLOAD_URL/$DOWNLOAD_FILE" -L
+echo "Downloaded file from $DOWNLOAD_URL/$DOWNLOAD_FILE to $DESTINATION_FOLDER/$DOWNLOAD_FILE"
+
+DOWNLOAD_FILE="63488-63743.pbf"
+rm "$DESTINATION_FOLDER/$DOWNLOAD_FILE"
+curl -o "$DESTINATION_FOLDER/$DOWNLOAD_FILE" "$DOWNLOAD_URL/$DOWNLOAD_FILE" -L
+echo "Downloaded file from $DOWNLOAD_URL/$DOWNLOAD_FILE to $DESTINATION_FOLDER/$DOWNLOAD_FILE"
