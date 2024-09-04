@@ -21,7 +21,7 @@ glyphs:'https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pb
 
 ## Downloading Assets
 
-Use the Downloads button on this repository page.
+Use the `Code > Download ZIP` button on this repository page, or [this direct link](https://github.com/protomaps/basemaps-assets/archive/refs/heads/main.zip).
 
 ## License
 
