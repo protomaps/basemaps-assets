@@ -28,3 +28,4 @@ Use the `Code > Download ZIP` button on this repository page, or [this direct li
 The license for each group of assets is contained within that directory:
 
 * `fonts/`: [SIL Open Font License](fonts/OFL.txt)
+* `sprites/`: derived from [MIT-licensed tangrams/icons](https://github.com/tangrams/icons/blob/master/LICENSE.md)
