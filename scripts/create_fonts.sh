@@ -86,7 +86,7 @@ $ROOT/NotoSansLisu/$VARIANT/NotoSansLisu-Regular.ttf \
 $ROOT/NotoSansVai/$VARIANT/NotoSansVai-Regular.ttf \
 $ROOT/NotoSansBamum/$VARIANT/NotoSansBamum-Regular.ttf \
 $ROOT/NotoSansSylotiNagri/$VARIANT/NotoSansSylotiNagri-Regular.ttf \
-$ROOT/NotoSansPhagsPa/$VARIANT/NotoSansPhags-Pa-Regular.ttf \
+$ROOT/NotoSansPhagsPa/$VARIANT/NotoSansPhagsPa-Regular.ttf \
 $ROOT/NotoSansSaurashtra/$VARIANT/NotoSansSaurashtra-Regular.ttf \
 $ROOT/NotoSansKayahLi/$VARIANT/NotoSansKayahLi-Regular.ttf \
 $ROOT/NotoSansRejang/$VARIANT/NotoSansRejang-Regular.ttf \
